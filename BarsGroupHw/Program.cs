@@ -5,12 +5,16 @@ static class Program
 {
 	public static void Main()
 	{
-		var keyChecker = new KeyChecker();
-		keyChecker.OnKeyPressed += PrintKey;
-		keyChecker.Run();
+		/// Task 1
+		//KeyChecker.KeyCheckerTest();
+
+		// Task 2
+		//LocalFileLogger<int>.LocalFileLoggerTest<int>();
+
+		/// Task 3
+		//Entity.EntityTest();
 	}
 
-	static void PrintKey(object? sender, char letter) =>
-		Console.WriteLine(letter);
+
 }
 

@@ -21,5 +21,15 @@ namespace BarsGroupHw
                     OnKeyPressed?.Invoke(this, letter.KeyChar);
             }
         }
+
+        public static void KeyCheckerTest()
+        {
+            var keyChecker = new KeyChecker();
+            keyChecker.OnKeyPressed += PrintKey;
+            keyChecker.Run();
+        }
+
+        static void PrintKey(object? sender, char letter) =>
+            Console.WriteLine(letter);
     }
 }
