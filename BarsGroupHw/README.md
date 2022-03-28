@@ -1,2 +1,3 @@
-# Task 2
-Assignment by events and delegates
+# Tasks
+1. Assignment by events and delegates
+2. IEnumerable
